@@ -1,0 +1,112 @@
+body
+{
+    font-weight: 400;
+    font-family: Lato,Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin: 0;
+}
+
+header
+{
+    background-color: orangered;
+    padding: 0px;
+}
+
+header figure image
+{
+    width: 35px;
+}
+section,footer
+{
+    margin: 40px;
+}
+h1
+{
+    font-size:  63px;
+    color: rgb(255, 221, 0);
+    text-align: center;
+    border: 10px;
+}
+
+nav li a 
+{
+    padding: 10px;
+    color: orangered;
+    text-decoration: none;
+}
+
+nav li 
+{
+    float: left;
+    
+}
+
+nav ul
+{
+    float: right;
+    list-style: none;
+}
+
+nav 
+{
+    border: 10px;
+    font-size: 25px;
+    height: 70px;
+    background: black;
+    padding-right: 100px;
+}
+h2
+{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: orangered;
+    font-weight: 600;
+}
+p
+{
+    text-align: justify;
+    font-size: 20px;
+}
+
+table
+{
+   width: 100px;
+}
+table td
+{
+    padding: 10px;
+    color: orange;
+}
+table th
+{
+    padding: 10px;
+    color: orange;
+}
+table tr:nth-child(:left)
+{
+    background-color: rgba(206, 20, 20, 0.708);
+}
+table tr:nth-child(:right)
+{
+    background-color: rgba(26, 20, 206, 0.708);
+}
+
+table thead
+{
+    background-color: orangered;
+}
+
+#imagens figure
+{
+    display: inline-block;
+} 
+#imagens, #videos
+{
+    text-align: center;
+}
+p{
+    font-weight: bold;
+}
